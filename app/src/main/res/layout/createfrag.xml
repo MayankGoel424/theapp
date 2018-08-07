@@ -1,0 +1,113 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <android.support.v7.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_form"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:id="@+id/name_create"
+                android:hint="Name"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="20sp"
+                android:capitalize="words"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimary"
+                app:met_singleLineEllipsis="true"
+                android:layout_height="wrap_content" />
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:id="@+id/city_create"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="20sp"
+                android:hint="City"
+                android:gravity="center"
+                android:capitalize="words"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimary"
+                app:met_singleLineEllipsis="true"
+                android:layout_height="wrap_content" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:id="@+id/country_create"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="20sp"
+                android:hint="Country"
+                android:gravity="center"
+                android:capitalize="words"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimary"
+                app:met_singleLineEllipsis="true"
+                android:layout_height="wrap_content" />
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:id="@+id/location_create"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="20sp"
+                android:hint="Location"
+                android:capitalize="words"
+                android:gravity="center"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimary"
+                app:met_singleLineEllipsis="true"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown"/>
+
+            <RatingBar
+                android:id="@+id/rating_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:theme="@style/RatingBar"
+                android:layout_gravity="center"
+                android:stepSize=".5"
+                />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:layout_below="@+id/create_form"
+        android:id="@+id/btn_create"
+        android:text="Submit"
+        android:layout_centerInParent="true"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_margin="8dp"
+
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

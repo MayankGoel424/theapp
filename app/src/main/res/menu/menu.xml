@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homeid"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/create"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:title="Add"
+        android:icon="@drawable/ic_create_black_24dp"
+        />
+    <item
+        android:id="@+id/userinfo"
+        android:title="Me"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_account_box_black_24dp">
+
+    </item>
+
+</menu>

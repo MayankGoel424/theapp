@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "336799290239",
+    "firebase_url": "https://finder-b01d0.firebaseio.com",
+    "project_id": "finder-b01d0",
+    "storage_bucket": "finder-b01d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336799290239:android:9f600faa6e9dccc8",
+        "android_client_info": {
+          "package_name": "com.practice.mayank.theapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336799290239-6lnt1dms9cqh7ifk8dln31g22j1aed1i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.practice.mayank.theapp",
+            "certificate_hash": "bc785e7abdba58c3400afc11a2fbe7a03221be28"
+          }
+        },
+        {
+          "client_id": "336799290239-adlijck6naekf03s2p3iv48qu41susdp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwXoX_Iuy7Ax-rqj4HMfUKKgf1HjDv8ug"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336799290239-adlijck6naekf03s2p3iv48qu41susdp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

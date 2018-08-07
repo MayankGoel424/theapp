@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent">
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="200dp"
+     android:gravity="center"
+     android:id="@+id/getname"
+     android:textStyle="bold"
+     android:background="#56b000"
+     android:textColor="#fffdd0"
+     android:text="example"
+     android:textSize="60dp"/>
+    <android.support.v7.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/find_info"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:id="@+id/citylist"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="25sp"
+                android:hint="City"
+                android:capitalize="words"
+                android:gravity="center"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimary"
+                app:met_singleLineEllipsis="true"
+                android:layout_height="wrap_content" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:id="@+id/countrylist"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="25sp"
+                android:hint="Country"
+                android:capitalize="words"
+                android:gravity="center"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimary"
+                app:met_singleLineEllipsis="true"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="50dp"
+    android:text=" Search"
+    android:padding="15dp"
+    android:id="@+id/create_btn"
+    android:onClick="searchclick"
+    style="@style/Widget.AppCompat.Button.Colored"
+    android:drawableLeft="@drawable/ic_search"/>
+
+</LinearLayout>
